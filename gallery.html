@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gallery.css">
+    <title>Gallery</title>
+</head>
+<body>
+
+  <nav>
+    <div>
+       <a href="heade.html" title="Ir para a Pagina Inicial" id="logo">
+     <img class="logo" src="C:\Users\ACER\Downloads\Cinemateca.png" alt="logo">
+    </a>
+    </div> 
+   <ul class="menu">
+     <li><a href="#">Página Inicial</a></li>
+     <li><a href="#">Top 10 filmes</a></li>
+         <li><a href="#">Gênero</a>
+              <ul>
+                     <li><a href="#Ação">Ação</a></li>
+                     <li><a href="#Animação">Animação</a></li>
+                     <li><a href="#">Aventura</a></li>
+                       <li><a href="#">Comédia</a></li>
+                       <li><a href="#">Guerra</a></li>
+                       <li><a href="#">Romance</a></li>
+                       <li><a href="#">Ficção Cientifica</a></li>
+                       <li><a href="#">Premiados</a></li>
+                       <li><a href="#">Baseado em história real</a></li>
+                       <li><a href="#">Aventura</a></li>
+                       <li><a href="#">Terror</a></li>
+              </ul>
+       </li>
+     <li><a href="#">Links</a></li>
+     <li><a href="#">Contato</a></li>
+ 
+       <div id='busca'>
+          <form action="/search" class="search" method="get">
+              <input id="txtbusca" name="q" type="text" value="" placeholder="Digite o que você procura" />
+              <input id="btnBusca" type="submit" value="Ok"/>
+          </form>
+          </div>
+          
+ </ul>
+ </nav>
+ 
+    <h1>Ação</h1>
+    <div class="container">
+      <button class="arrow-left control" aria-label="Previous image">◀</button>
+      <button class="arrow-right control" aria-label="Next Image">▶</button>
+      <div class="gallery-wrapper">
+        <div class="gallery">
+          <!--       <div class="item current-item cyan"></div>
+          <div class="item deeppink"></div>
+          <div class="item turquoise"></div>
+          <div class="item darkblue"></div>
+          <div class="item purple"></div> -->
+          <a href="https://www.youtube.com/watch?v=QoRnBJAHY8w" target="_blank">
+            <img src="https://2.bp.blogspot.com/-RtdQm3O0A98/WcPS0kqO1_I/AAAAAAAAXR4/NDrq54UYz-0AOtYFJe9U8SMh3NyAys4yACLcBGAs/s1600/Feito%2Bna%2BAm%25C3%25A9rica%2B01.jpg" alt="america" class="item current-item">
+          </a>
+
+          <a href="https://play.hbomax.com/page/urn:hbo:page:GYIymyAspIYecwwEAAACS:type:feature" target="_blank">
+          <img src="https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbGNsRiI4Cs7X7QhRazmQi9LaKGUXTe-93js8qT2ov8ENzf2TaH7yNWI9idq2olCuHgxItesIb6oL4soqQ5_Rmm1Wfvv.jpg?r=d2d" alt="lobo" class="item current-item">
+          </a>
+
+          <a href="https://www.primevideo.com/detail/0SILOEE0B6Y2YL1HOCOU40O6L1/ref=atv_sr_fle_c_Tn74RA_5_1_5?sr=1-5&qid=1660150239&pageTypeIdSource=ASIN&language=pt_br&pageTypeId=B09K2XFD29" target="_blank">
+          <img src="https://occ-0-590-448.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABVqcLQpf6mxvyIfcaadFQhph_iN1tmNUjmHziE4hXp6HsNL0ViweqrNA3JUqdX_ukwGIWZzli2G4cry-1PYBFRk22_a8C2LG86Cj.jpg?r=1ef" alt="resgate" class="item current-item">
+          </a>
+          
+          <a href="https://www.primevideo.com/detail/0SILOEE0B6Y2YL1HOCOU40O6L1/ref=atv_sr_fle_c_Tn74RA_5_1_5?sr=1-5&qid=1660150239&pageTypeIdSource=ASIN&language=pt_br&pageTypeId=B09K2XFD29" target="_blank">
+          <img src="https://br.web.img3.acsta.net/pictures/22/05/24/16/14/3798761.png" alt="agente" class="item current-item">
+          </a>
+
+          <a href="https://www.primevideo.com/dp/amzn1.dv.gti.74b4dd05-d1ac-b242-688e-78a7b46983a6?autoplay=0&ref_=atv_cf_strg_wb" target="_blank">
+          <img src="https://br.web.img3.acsta.net/medias/nmedia/18/87/30/63/19874134.jpg" alt="codigo" class="item current-item">
+          </a>
+        
+          <a href="https://globoplay.globo.com/velozes-furiosos-9/t/WzmnXCy68x/" target="_blank">
+            <img src="https://clube-static.clubegazetadopovo.com.br/portal/wp-content/uploads/2021/07/maxresdefault-1-1-768x555.jpg" alt="velozes-furiosos-9" class="item current-item">
+            </a>
+
+          <a href="https://www.netflix.com/br/title/81186049?source=35" target="_blank">
+            <img src="https://m.media-amazon.com/images/M/MV5BYWI2ZDRjYjEtOWJiOS00NWVjLWI1MjAtNWNiMzAwNGFmNjljXkEyXkFqcGdeQXVyODEwMTc2ODQ@._V1_FMjpg_UX1000_.jpg" alt="day" class="item current-item">
+            </a>
+
+            <a href="https://www.starplus.com/pt-br/movies/o-predador-a-cacada/5Y0VIrKjUDWm" target="_blank">
+              <img src="data:image/jpeg;base64,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" alt="predador" class="item current-item">
+              </a>
+
+              <a href="https://www.netflix.com/br/title/81399639?source=35" target="_blank">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4UDiqJVHmzvdsH1bP0_NNksw-r7ncSngOr423Q-D5uf3jt6KvWz_K0o6MBwfmrU3Qet5JucrhRrmWJShWC5Ak_j96Gw8k6LKQpTjnUe41RDv4qa6GV6wDS5wKTEE_AuhU1UEYLs7AJqJoe_nzuYro98He7UaqZZITHlc4RAq3MKaz6upOpb84ZYF3CA/w640-h360/carter.jpg" alt="carter" class="item current-item">
+                </a>
+
+                <a href="https://www.primevideo.com/dp/amzn1.dv.gti.afd5aea0-f2e6-4dc1-9498-33aa330a81b1?autoplay=0&ref_=atv_cf_strg_wb" target="_blank">
+                  <img src="https://cineclick-static.flixmedia.cloud/1280/44b74019-695a-4a95-a506-86f2910dd70b.jpg" alt="assassino" class="item current-item">
+                  </a>
+
+                  <a href="https://www.primevideo.com/dp/amzn1.dv.gti.74b4dd05-d1ac-b242-688e-78a7b46983a6?autoplay=0&ref_=atv_cf_strg_wb" target="_blank">
+                    <img src="https://br.web.img3.acsta.net/medias/nmedia/18/87/30/63/19874134.jpg" alt="codigo" class="item current-item">
+                    </a>
+
+                    <a href="https://www.primevideo.com/dp/amzn1.dv.gti.74b4dd05-d1ac-b242-688e-78a7b46983a6?autoplay=0&ref_=atv_cf_strg_wb" target="_blank">
+                      <img src="https://br.web.img3.acsta.net/medias/nmedia/18/87/30/63/19874134.jpg" alt="codigo" class="item current-item">
+                      </a>
+
+                      <a href="https://www.primevideo.com/dp/amzn1.dv.gti.74b4dd05-d1ac-b242-688e-78a7b46983a6?autoplay=0&ref_=atv_cf_strg_wb" target="_blank">
+                        <img src="https://br.web.img3.acsta.net/medias/nmedia/18/87/30/63/19874134.jpg" alt="codigo" class="item current-item">
+                        </a>
+
+                        <a href="https://www.primevideo.com/dp/amzn1.dv.gti.74b4dd05-d1ac-b242-688e-78a7b46983a6?autoplay=0&ref_=atv_cf_strg_wb" target="_blank">
+                          <img src="https://br.web.img3.acsta.net/medias/nmedia/18/87/30/63/19874134.jpg" alt="codigo" class="item current-item">
+                          </a>
+
+                          <a href="https://www.primevideo.com/dp/amzn1.dv.gti.74b4dd05-d1ac-b242-688e-78a7b46983a6?autoplay=0&ref_=atv_cf_strg_wb" target="_blank">
+                            <img src="https://br.web.img3.acsta.net/medias/nmedia/18/87/30/63/19874134.jpg" alt="codigo" class="item current-item">
+                            </a>
+
+                            <a href="https://www.primevideo.com/dp/amzn1.dv.gti.74b4dd05-d1ac-b242-688e-78a7b46983a6?autoplay=0&ref_=atv_cf_strg_wb" target="_blank">
+                              <img src="https://br.web.img3.acsta.net/medias/nmedia/18/87/30/63/19874134.jpg" alt="codigo" class="item current-item">
+                              </a>
+
+                              <a href="https://www.primevideo.com/dp/amzn1.dv.gti.74b4dd05-d1ac-b242-688e-78a7b46983a6?autoplay=0&ref_=atv_cf_strg_wb" target="_blank">
+                                <img src="https://br.web.img3.acsta.net/medias/nmedia/18/87/30/63/19874134.jpg" alt="codigo" class="item current-item">
+                                </a>
+
+                                <a href="https://www.primevideo.com/dp/amzn1.dv.gti.74b4dd05-d1ac-b242-688e-78a7b46983a6?autoplay=0&ref_=atv_cf_strg_wb" target="_blank">
+                                  <img src="https://br.web.img3.acsta.net/medias/nmedia/18/87/30/63/19874134.jpg" alt="codigo" class="item current-item">
+                                  </a>
+
+                                  <a href="https://www.primevideo.com/dp/amzn1.dv.gti.74b4dd05-d1ac-b242-688e-78a7b46983a6?autoplay=0&ref_=atv_cf_strg_wb" target="_blank">
+                                    <img src="https://br.web.img3.acsta.net/medias/nmedia/18/87/30/63/19874134.jpg" alt="codigo" class="item current-item">
+                                    </a>
+
+                                    <a href="https://www.primevideo.com/dp/amzn1.dv.gti.74b4dd05-d1ac-b242-688e-78a7b46983a6?autoplay=0&ref_=atv_cf_strg_wb" target="_blank">
+                                      <img src="https://br.web.img3.acsta.net/medias/nmedia/18/87/30/63/19874134.jpg" alt="codigo" class="item current-item">
+                                      </a>
+
+                                      <a href="https://www.primevideo.com/dp/amzn1.dv.gti.74b4dd05-d1ac-b242-688e-78a7b46983a6?autoplay=0&ref_=atv_cf_strg_wb" target="_blank">
+                                        <img src="https://br.web.img3.acsta.net/medias/nmedia/18/87/30/63/19874134.jpg" alt="codigo" class="item current-item">
+                                        </a>
+
+        </div>
+      </div>
+    </div>
+
+</body>
+<script src="js/gallery.js"></script>
+</html>
